@@ -2,7 +2,10 @@
 Challenge - Address book with GraphQL API
 
 # RUN
-git clone 
+- git clone git@github.com:saqibumar/challenge-address-book-api.git
+- cd challenge-address-book-api
+- npm i
+- npm start
 
 # Solution Architecture
 
