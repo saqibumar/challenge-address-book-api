@@ -1,0 +1,44 @@
+{
+  "name": "challenge-address-book-api",
+  "version": "1.0.0",
+  "description": "Challenge - Address book with GraphQL API",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.11.0",
+    "apollo-server-express": "^3.13.0",
+    "class-validator": "^0.14.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.9.0",
+    "graphql-scalars": "^1.23.0",
+    "graphql-upload": "^15.0.2",
+    "multer": "^1.4.5-lts.1",
+    "pdf-lib": "^1.17.1",
+    "pdfkit": "^0.15.0",
+    "reflect-metadata": "^0.2.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "type-graphql": "^2.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/graphql": "^14.5.0",
+    "@types/graphql-upload": "^16.0.7",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.5.5",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.6",
+    "@types/uuid": "^10.0.0",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
