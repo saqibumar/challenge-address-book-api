@@ -11,11 +11,12 @@ Challenge - Address book with GraphQL API
 
 - Gathered the required packages necessary to work around graphQL
 - Set up the node environment with typescript (latest versions)
+- Creating data models and associated resolver
 
 # Learning Curve
 
 - The new graphql-upload library doesn't have compatibility to import so I had to go with multer
-- I am not so familiar with graphql so it took me a bit to get a grab of resolvers
+- I am not so familiar with graphql so it took me a bit to get a grab of resolvers and helped me learn the implementation
 
 # Challenges
 
